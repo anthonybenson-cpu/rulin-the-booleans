@@ -1,15 +1,15 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
-function moreThan5(num) {
-  return num > 5 
+function moreThan5(num){
+  return num > 5
 }
-function isNewTopScore(score, topscore){
-  return score > topscore
+function isNewTopScore(score, topScore){
+  return score > topScore 
 }
-function isInDanger(grade){
-  return grade >= 60 && grade <= 71
-} 
+function isInDanger(num){
+  return num >= 60 && num <= 71
+}
 function isCoasting(grade){
   return grade >= 72 && grade <= 83
 }
@@ -20,30 +20,29 @@ function isFailing(grade){
   return grade < 60
 }
 function isAcing(grade){
-  return grade > 92 
+  return grade > 92
 }
 function isStudent(role){
-  return role === "student" 
+  return role === "student"
 }
 function isTeacher(role){
   return role === "teacher"
 }
 function isAdmin(role){
-  return role === "admin"
+  return role === "admin" 
 }
 function isElementary(schoolLevel){
   return schoolLevel === "elementary"
 }
-function areDifferentPeople(Benson, Williams){
-  return Benson !== Williams 
+function areDifferentPeople(benson, williams){
+  return benson != williams
 }
 function isMiddleSchoolTeacher(role, level){
-  return role === "teacher" && level >=6 && level <= 8
+  return role === "teacher" && level >= 6 && level <= 8
 }
-function notAnElementarySchoolAdministrator(schoolLevel, role){
-  return !(schoolLevel === "elementary" && role === "admin")
+function notAnElementarySchoolAdministrator(level, role){
+  return !(level === "elementary" && role === "admin")
 }
-
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
  *                              THIS IS FOR INTERNAL USE ONLY                               *
